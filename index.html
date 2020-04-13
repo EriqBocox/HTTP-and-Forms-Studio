@@ -9,7 +9,7 @@
 		
 			let actions = {
 				'google': "https://www.google.com/search",
-				'duckduckgo': "https://duckduckgo.com/",
+				'duckDuckGo': "https://duckduckgo.com/",
 				'bing': "https://www.bing.com/search",
 				'ask': "https://www.ask.com/web"
 			};
@@ -28,13 +28,13 @@
 
 <body>
 
-	<form id="searchForm">
-		<input id='inputBar' type='text' name='q'/>
+	<form id="searchForm" method='GET'>
+		<input id='inputBar' type='text' name='q' placeholder='Search'/>
 		<label id='googleButton' class='button-style'>Google
 			<input type='radio' name='engine' value='google'/>
 		</label>
 		<label id='duckButton' class='button-style'>DuckDuckGo
-			<input type='radio' name='engine' value='duckduckgo'/>
+			<input type='radio' name='engine' value='duckDuckGo'/>
 		</label>
 		<label id='bingButton' class='button-style'>Bing
 			<input type='radio' name='engine' value='bing'/>
